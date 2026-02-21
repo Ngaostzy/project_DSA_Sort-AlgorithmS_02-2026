@@ -4,25 +4,26 @@
 Dự án triển khai và so sánh hiệu năng các thuật toán sắp xếp trong môn Cấu trúc dữ liệu & Giải thuật (DSA).
 
 ---
-
 ## Cấu trúc thư mục
+
+```
 DSA/
 │
 ├── algorithms/
-│ ├── Bubblesort.py
-│ ├── dataset.py # file khởi tạo thư mục dataset
-│ ├── InsertionSort.py
-│ ├── MergeSort.py
-│ ├── QuickSort.py
-│ └── ...
+│   ├── BubbleSort.py
+│   ├── InsertionSort.py
+│   ├── MergeSort.py
+│   ├── QuickSort.py
+│   └── dataset.py
 │
 ├── benchmarks/
-│ └── compare_time.py
+│   └── compare_time.py
 │
-├── Dataset/ # Chứa dữ liệu test (1 triệu phần tử mỗi file, không push lên GitHub)
+├── Dataset/
 │
-├── main.py # File chạy chính để thực hiện benchmark
+├── main.py
 └── README.md
+```
 
 **Dataset/**  
 Chứa 10 bộ dữ liệu (1.000.000 phần tử mỗi bộ), gồm:
