@@ -14,14 +14,14 @@ DSA/
 │   ├── InsertionSort.py
 │   ├── MergeSort.py
 │   ├── QuickSort.py
-│   └── dataset.py
+│   └── dataset.py # File tạo dữ liệu
 │
 ├── benchmarks/
 │   └── compare_time.py
 │
-├── Dataset/
+├── Dataset/ # Chứa dữ liệu test (không push lên GitHub)
 │
-├── main.py
+├── main.py # File chạy chính để benchmark
 └── README.md
 ```
 
