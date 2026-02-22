@@ -9,11 +9,12 @@ Dự án triển khai và so sánh hiệu năng các thuật toán sắp xếp t
 ```
 DSA/
 │
-├── algorithms/
+├── algorithms/ 
 │   ├── BubbleSort.py
 │   ├── InsertionSort.py
 │   ├── MergeSort.py
-│   └── QuickSort.py
+│   ├── QuickSort.py
+│   └── ...
 │   
 │
 ├── benchmarks/
